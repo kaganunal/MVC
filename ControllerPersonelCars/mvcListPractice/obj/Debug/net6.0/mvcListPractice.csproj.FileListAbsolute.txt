@@ -1,0 +1,62 @@
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\bin\Debug\net6.0\appsettings.json
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\bin\Debug\net6.0\mvcListPractice.staticwebassets.runtime.json
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\bin\Debug\net6.0\mvcListPractice.exe
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\bin\Debug\net6.0\mvcListPractice.deps.json
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\bin\Debug\net6.0\mvcListPractice.runtimeconfig.json
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\bin\Debug\net6.0\mvcListPractice.dll
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\bin\Debug\net6.0\mvcListPractice.pdb
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.csproj.AssemblyReference.cache
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.AssemblyInfoInputs.cache
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.AssemblyInfo.cs
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.csproj.CoreCompileInputs.cache
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.RazorAssemblyInfo.cache
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.RazorAssemblyInfo.cs
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\staticwebassets\msbuild.mvcListPractice.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\staticwebassets\msbuild.build.mvcListPractice.props
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.mvcListPractice.props
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.mvcListPractice.props
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\scopedcss\bundle\mvcListPractice.styles.css
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\scopedcss\projectbundle\mvcListPractice.bundle.scp.css
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.dll
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\refint\mvcListPractice.dll
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.pdb
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\mvcListPractice.genruntimeconfig.cache
+C:\Users\OGUZHAN\Desktop\yazılım dersler\VISUAL STUDİO MVC\NİSAN 18\PRATİK\Group-2\mvcListPractice\obj\Debug\net6.0\ref\mvcListPractice.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\bin\Debug\net6.0\mvcListPractice.staticwebassets.runtime.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\bin\Debug\net6.0\mvcListPractice.exe
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\bin\Debug\net6.0\mvcListPractice.deps.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\bin\Debug\net6.0\mvcListPractice.runtimeconfig.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\bin\Debug\net6.0\mvcListPractice.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\bin\Debug\net6.0\mvcListPractice.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.AssemblyInfo.cs
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\staticwebassets\msbuild.mvcListPractice.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\staticwebassets\msbuild.build.mvcListPractice.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.mvcListPractice.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.mvcListPractice.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\scopedcss\bundle\mvcListPractice.styles.css
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\scopedcss\projectbundle\mvcListPractice.bundle.scp.css
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\refint\mvcListPractice.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\mvcListPractice.genruntimeconfig.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\ControllerPersonelCars\mvcListPractice\obj\Debug\net6.0\ref\mvcListPractice.dll

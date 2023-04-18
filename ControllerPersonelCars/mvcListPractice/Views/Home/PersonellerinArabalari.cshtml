@@ -1,0 +1,29 @@
+﻿@model Dictionary<int, string>
+
+
+<table class="w-100 table table-striped bg-info">
+    <tr class="border-bottom border-primary">
+        <th>
+            Model
+        </th>
+        <th>
+            Marka
+        </th>
+    </tr>
+    @{
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Key
+                </td>
+                <td>
+                    @item.Value
+                </td>
+            </tr>
+        }
+    }
+
+</table>
+
+

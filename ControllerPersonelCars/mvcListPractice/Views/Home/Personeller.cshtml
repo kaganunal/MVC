@@ -1,0 +1,37 @@
+﻿@model List<Personel>
+
+
+<table class="w-100 table table-striped bg-info">
+    <tr class="border-bottom border-primary">
+        <th>
+            Adı
+        </th>
+        <th>
+            Soyadı
+        </th>
+        <th>
+            Arabalar
+        </th>
+    </tr>
+    @{
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.FirstName
+                </td>
+                <td>
+                    @item.LastName
+                </td>
+                <td>
+                    <a class="text-dark btn btn-primary" asp-area="" asp-controller="Home" asp-action="PersonellerinArabalari" asp-route-id="@item.Id">Göster</a>
+
+                </td>
+            </tr>
+        }
+    }
+
+</table>
+
+
+
