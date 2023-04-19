@@ -1,0 +1,21 @@
+﻿@model List<int>
+
+
+<table class="table border ">
+    @foreach (var item in Model)
+    {
+        if (item % 3 == 1)
+        {
+            <tr class="bg-info">
+                <td>@item</td>
+            </tr>
+        }
+        else
+        {
+            <tr class="bg-warning">
+                <td>@item</td>
+            </tr>
+        }
+    }
+
+</table>

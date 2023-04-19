@@ -24,7 +24,8 @@
                     @item.LastName
                 </td>
                 <td>
-                    <a class="text-dark btn btn-primary" asp-area="" asp-controller="Home" asp-action="PersonellerinArabalari" asp-route-id="@item.Id">Göster</a>
+                    @*<a class="text-dark btn btn-primary" asp-area="" asp-controller="Home" asp-action="PersonellerinArabalari" asp-route-id="@item.Id">Göster</a>*@
+                    <a class="text-dark btn btn-primary " href="/home/PersonellerinArabalari/@item.Id">Göster</a>
 
                 </td>
             </tr>

@@ -1,0 +1,54 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<head>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+          integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+</head>
+
+<style>
+
+</style>
+
+
+<h1 class="text-center"> Products   </h1>
+
+
+
+<div>
+    <table class="table table-striped border bg-warning">
+        <thead>
+            <tr class="bg-info">
+                <th><i class="fa-sharp fa-solid fa-lightbulb"></i> ID</th>
+                <th><i class="fa-sharp fa-solid fa-signature"></i> Name</th>
+                <th><i class="fa-sharp fa-solid fa-cubes-stacked"></i> Units In Stock</th>
+                <th><i class="fa-sharp fa-solid fa-layer-group"></i> Category</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td> @item.Id </td>
+                    <td> @item.Name </td>
+                    <td> @(item.UnitsInStock != 0 ? item.UnitsInStock : "Out of Stock!") </td>
+                    <td> @item.Category </td>
+                </tr>
+            }
+        </tbody>
+
+
+    </table>
+</div>

@@ -1,0 +1,27 @@
+﻿@*@using (Html.BeginForm("Sonuc", "TextBox", FormMethod.Post))
+{
+    <p>Sayı Girin: @Html.TextBox("sayi")</p>
+    <input type="submit" value="Gönder" />
+}*@
+
+@model Number
+
+<form asp-controller="TextBox" asp-action="Sonuc" method="post">
+    <label class="form-label" asp-for="Sayi">Sayı Girin: </label>
+    <input class="form-control" asp-for="Sayi" />
+    <button type="submit" class="btn btn-info">Kontrol Et</button>
+</form>
+
+
+
+@*@using (Html.BeginForm("Sonuc", "TextBox", FormMethod.Post))
+{
+    <p>
+        Sayı Girin:
+        <input asp-for="Sayi" />
+    </p>
+    <input type="submit" value="Gönder" />
+}
+*@
+
+

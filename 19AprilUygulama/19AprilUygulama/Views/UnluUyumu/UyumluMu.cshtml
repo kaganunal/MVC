@@ -1,0 +1,19 @@
+﻿@model Metin
+
+
+
+@{ 
+    char[] kalin = { 'a', 'ı', 'o', 'u' };
+    char[] ince = { 'e', 'i', 'ö', 'ü'};
+
+    if ((Model.Kelime.Any(x => kalin.Contains(x)) && Model.Kelime.Any(x => ince.Contains(x))))
+    {
+        <h3>@Model.Kelime kelimesinin büyük ünlü uyumu yoktur. </h3>
+    }
+    else
+    {
+        <h3>@Model.Kelime kelimesinin büyük ünlü uyumu vardır. </h3>
+    }
+}
+
+
