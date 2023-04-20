@@ -1,0 +1,30 @@
+﻿@model List<int>
+@{
+    <h1>Tek Sayılar</h1>
+    foreach (var item in Model)
+    {
+        if (item % 2 == 1)
+        {
+            <li class="list-group-item list-group-item-info">@item</li>
+        }
+    }
+    <h1>Çift Sayılar</h1>
+    foreach (var item in Model)
+    {
+        if (item % 2 == 0)
+        {
+            <li class="list-group-item list-group-item-warning">@item</li>
+        }
+    }
+    <h1>Asal Sayılar</h1>
+    foreach (var item in Model)
+    {
+        for (int i = 2; i < Model.Count; i++)
+        {
+            if (item % i != 0)
+            {
+                <li class="list-group-item list-group-item-danger">@item</li>
+            }
+        }
+    }
+}
