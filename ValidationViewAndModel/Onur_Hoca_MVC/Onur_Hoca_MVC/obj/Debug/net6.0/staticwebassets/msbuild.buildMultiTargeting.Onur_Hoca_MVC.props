@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Onur_Hoca_MVC.props" />
+</Project>
