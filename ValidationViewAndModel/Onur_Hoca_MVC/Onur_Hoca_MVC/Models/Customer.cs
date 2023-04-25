@@ -23,18 +23,18 @@ namespace Onur_Hoca_MVC.Models
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [JoinDateValidation]
         public DateTime JoinDate { get; set; }
 
-        [JoinDateValidation]
         [EnumDataType(typeof(CustomerType), ErrorMessage = "Customer type is not valid")]
         public CustomerType CustomerType { get; set; }
 
         [AgeValidation]
         public int Age { get; set; }
 
-        public Customer(int ıd, string companyName, int age, string email, DateTime joinDate, CustomerType customerType)
+        public Customer(int id, string companyName, int age, string email, DateTime joinDate, CustomerType customerType)
         {
-            Id = ıd;
+            Id = id;
             CompanyName = companyName;
             Age = age;
             Email = email;

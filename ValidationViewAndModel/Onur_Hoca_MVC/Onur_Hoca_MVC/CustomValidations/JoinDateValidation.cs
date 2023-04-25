@@ -15,7 +15,10 @@ namespace Onur_Hoca_MVC.CustomValidations
             {
                 return new ValidationResult("Join date cannot be greater than current date");
             }
-            return base.IsValid(value, validationContext);
+            else
+            {
+                return new ValidationResult("Wrong Format");
+            }
         }
     }
 }
