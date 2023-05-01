@@ -1,0 +1,69 @@
+﻿@model IEnumerable<MVCPictureCRUD.Models.Animal>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Animals</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-warning">New Animal</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BirthDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PicturePath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoundPath)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BirthDate)
+                </td>
+                <td>
+                    <img src="@Html.DisplayFor(modelItem => item.PicturePath)" class="img-fluid" height="200" width="200" style=""/>
+                </td>
+                <td>
+                    <audio controls class="d-lg-block d-sm-none">
+                        <source src="@Html.DisplayFor(modelItem => item.SoundPath)" type="audio/mp3" >
+                    </audio>
+                </td>
+                <td>
+                    <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning"><i class="fa-sharp fa-solid fa-pen-to-square"></i></a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-warning"><i class="fa-sharp fa-solid fa-trash"></i></a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-warning"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
