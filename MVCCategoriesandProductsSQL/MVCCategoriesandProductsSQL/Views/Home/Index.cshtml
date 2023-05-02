@@ -1,0 +1,105 @@
+﻿@*@model IEnumerable<MVCCategoriesandProductsSQL.Models.Category>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+
+                    @{
+                        foreach (var product in item.Products)
+                        {
+                            <td>
+                                @product.Name
+                            </td>
+                        }
+                    }
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@
+
+@model IEnumerable<MVCCategoriesandProductsSQL.Models.Category>
+
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h1>Index</h1>
+
+
+
+
+@foreach (var item in Model)
+{
+    <div class="border shadow m-3">
+        <table class="table ">
+            <thead>
+                <tr>
+                    <th>
+                        @item.Name
+                    </th>
+                    <th>
+
+
+
+                </tr>
+            </thead>
+            @foreach (var product in item.Products)
+            {
+                <tbody>
+                    <tr>
+
+
+
+                        <td>
+                            @Html.DisplayFor(modelItem => product.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => product.Price)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => product.IsInStock)
+                        </td>
+
+
+
+                    </tr>
+                </tbody>
+            }
+        </table>
+    </div>
+
+}

@@ -34,7 +34,7 @@
                 <span asp-validation-for="PicturePath" asp-for="PicturePath" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-warning" />
             </div>
         </form>
     </div>
@@ -44,8 +44,9 @@
     <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </div>
 
-@section Scripts {
+@*@section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+*@

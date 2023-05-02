@@ -1,0 +1,23 @@
+﻿@{
+
+    int[] sayilar = new int[6];
+    Random rnd = new Random();
+    int i = 0;
+    while (i < 6)
+    {
+        int sayi = rnd.Next(0, 50);
+        if (sayilar.Contains(sayi) == false)
+        {
+            sayilar[i] = sayi;
+            i++;
+        }
+    }
+    <h1>Kazanan Numaralar: </h1>
+    foreach (int sayi in sayilar)
+    {
+        <h2>@sayi</h2>
+
+    }
+
+
+}

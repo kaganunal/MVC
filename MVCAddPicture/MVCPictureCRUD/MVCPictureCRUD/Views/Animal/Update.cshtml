@@ -9,41 +9,57 @@
 
 <h4>Animal</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Update" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Type" class="control-label"></label>
-                @Html.DropDownListFor(model => model.Type, Enum.GetValues(typeof(AnimalType)).Cast<AnimalType>().Select(x => new SelectListItem { Text = x.ToString(), Value = ((int)x).ToString() }), "Select Type", new { @class = "form-control" })
-                <span asp-validation-for="Type" asp-for="Type" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" asp-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="BirthDate" class="control-label"></label>
-                <input asp-for="BirthDate" type="date" class="form-control" />
-                <span asp-validation-for="BirthDate" asp-for="BirthDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="PicturePath" class="control-label"></label>
-                <input asp-for="PicturePath" type="file" class="form-control" name="file" />
-                <span asp-validation-for="PicturePath" asp-for="PicturePath" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Update" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Type" class="control-label"></label>
+                    <select asp-for="Type" class="form-control">
+                        <option value="">-- Select Animal Type --</option>
+                        <option value="0">Cat</option>
+                        <option value="1">Dog</option>
+                        <option value="2">Mouse</option>
+                        <option value="3">Bird</option>
+                    </select>
+                    <span asp-validation-for="Type" class="text-danger"></span>
+                    @*                    <label asp-for="Type" class="control-label"></label>
+                    @Html.DropDownListFor(model => model.Type, Enum.GetValues(typeof(AnimalType)).Cast<AnimalType>().Select(x => new SelectListItem { Text = x.ToString(), Value = ((int)x).ToString() }), "Select Type", new { @class = "form-control" })
+                    <span asp-validation-for="Type" asp-for="Type" class="text-danger"></span>*@
+                </div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" asp-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="BirthDate" class="control-label"></label>
+                    <input asp-for="BirthDate" type="date" class="form-control" />
+                    <span asp-validation-for="BirthDate" asp-for="BirthDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PicturePath" class="control-label"></label>
+                    <input asp-for="PicturePath" type="file" class="form-control" name="file" />
+                    <span asp-validation-for="PicturePath" asp-for="PicturePath" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" id="update" />
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index" class="btn btn-warning">Back to List</a>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index" class="btn btn-warning">Back to List</a>
-</div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

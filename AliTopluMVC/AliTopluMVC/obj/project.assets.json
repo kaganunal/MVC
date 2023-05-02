@@ -10023,11 +10023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Bilge Adam\\Örnekler\\AliTopluMVC\\AliTopluMVC\\AliTopluMVC.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\AliTopluMVC\\AliTopluMVC\\AliTopluMVC.csproj",
       "projectName": "AliTopluMVC",
-      "projectPath": "C:\\Users\\User\\Desktop\\Bilge Adam\\Örnekler\\AliTopluMVC\\AliTopluMVC\\AliTopluMVC.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\AliTopluMVC\\AliTopluMVC\\AliTopluMVC.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Bilge Adam\\Örnekler\\AliTopluMVC\\AliTopluMVC\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\AliTopluMVC\\AliTopluMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

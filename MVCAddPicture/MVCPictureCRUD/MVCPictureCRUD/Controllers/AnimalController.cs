@@ -75,7 +75,7 @@ namespace MVCPictureCRUD.Controllers
         {
 
             // ??????????????????????????????????????????????????????????
-            var pictureName = animal.PicturePath;
+            //var pictureName = animal.PicturePath;
             if (ModelState.IsValid)
             {
                 if (file != null && file.Length > 0)
@@ -90,7 +90,8 @@ namespace MVCPictureCRUD.Controllers
                 }
                 else
                 {
-                    animal.PicturePath = pictureName;
+                    var existingAnimal = await _context.Animals.AsNoTracking().FirstOrDefaultAsync(a => a.Id == animal.Id);
+                    animal.PicturePath = existingAnimal.PicturePath;
                 }
 
                 SetSound(animal);
