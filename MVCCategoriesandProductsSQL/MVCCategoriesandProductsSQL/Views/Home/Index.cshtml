@@ -53,17 +53,22 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Products</h1>
+<h1>Categories and Products</h1>
 @foreach (var item in Model)
 {
-    <div class="border shadow m-3">
+    <div class="border shadow m-3 ">
         <table class="table ">
-            <thead>
+            <thead class="container" style="background-color: #FF6600; justify-content:space-between">
                 <tr>
-                    <th>
+                    <th style="color: #fff">
                         @item.Name
                     </th>
-                    <th>
+                    <th style="color: #fff">
+                        Price
+                    </th>
+                    <th style="color: #fff">
+                        Is in Stock
+                    </th>
                 </tr>
             </thead>
             @foreach (var product in item.Products)
@@ -84,5 +89,5 @@
             }
         </table>
     </div>
-
 }
+
