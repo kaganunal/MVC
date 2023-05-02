@@ -67,15 +67,14 @@ namespace MVCPictureCRUD.Controllers
 
         public async Task<IActionResult> Update(int id)
         {
-            return View(await _context.Animals.FindAsync(id));
+            var animal = await _context.Animals.FindAsync(id);
+            ViewData["ExistingPicture"] = animal.PicturePath;
+            return View(animal);
         }
 
         [HttpPost]
         public async Task<IActionResult> Update(Animal animal, IFormFile? file)
         {
-
-            // ??????????????????????????????????????????????????????????
-            //var pictureName = animal.PicturePath;
             if (ModelState.IsValid)
             {
                 if (file != null && file.Length > 0)

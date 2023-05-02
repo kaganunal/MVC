@@ -48,20 +48,12 @@
 
 @model IEnumerable<MVCCategoriesandProductsSQL.Models.Category>
 
-
-
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
-
-<h1>Index</h1>
-
-
-
-
+<h1>Products</h1>
 @foreach (var item in Model)
 {
     <div class="border shadow m-3">
@@ -72,18 +64,12 @@
                         @item.Name
                     </th>
                     <th>
-
-
-
                 </tr>
             </thead>
             @foreach (var product in item.Products)
             {
                 <tbody>
                     <tr>
-
-
-
                         <td>
                             @Html.DisplayFor(modelItem => product.Name)
                         </td>
@@ -93,9 +79,6 @@
                         <td>
                             @Html.DisplayFor(modelItem => product.IsInStock)
                         </td>
-
-
-
                     </tr>
                 </tbody>
             }

@@ -10,12 +10,9 @@
 <p>
     <a asp-action="Create" class="btn btn-warning">New Animal</a>
 </p>
-<table class="table">
+<table class="table border bg-light">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Type)
             </th>
@@ -37,10 +34,7 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
+            <tr class="">
                 <td>
                     @Html.DisplayFor(modelItem => item.Type)
                 </td>
@@ -48,7 +42,7 @@
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.BirthDate)
+                    @item.BirthDate.ToShortDateString()
                 </td>
                 <td>
                     <img src="@Html.DisplayFor(modelItem => item.PicturePath)" class="img-fluid" height="200" width="200" style=""/>

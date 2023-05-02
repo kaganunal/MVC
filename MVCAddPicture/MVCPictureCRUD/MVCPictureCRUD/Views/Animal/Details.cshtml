@@ -33,13 +33,13 @@
             @Html.DisplayNameFor(model => model.BirthDate)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.BirthDate)
+            @Model.BirthDate.ToShortDateString()
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.PicturePath)
         </dt>
         <dd class="col-sm-10">
-            <img src="@Html.DisplayFor(model => model.PicturePath)" class="img-fluid" height="200" width="100" draggable="true"  />
+            <img src="@Html.DisplayFor(model => model.PicturePath)" class="img-fluid" height="200" width="200" draggable="true"  />
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.SoundPath)
@@ -50,6 +50,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Update" asp-route-id="Id" class="btn btn-warning">Update</a> |
+    <a asp-action="Update" asp-route-id="Id" class="btn btn-warning">Update</a> 
     <a asp-action="Index" class="btn btn-warning">Back to List</a>
 </div>

@@ -10,26 +10,32 @@ namespace MVCPictureCRUD.Models
         [Key]
         [DisplayName("ID")]
         public int Id { get; set; }
-        [DisplayName("Type")]
-        [Required]
+
+        [DisplayName("Genus")]
+        [Required(ErrorMessage = "Please select an animal type.")]
         public AnimalType Type { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "Please enter the name of the animal.")]
         [DisplayName("Name")]
-        [StringLength(50, ErrorMessage = "Name can not be longer than 50 characters!")]
+        [StringLength(50, ErrorMessage = "Name cannot be longer than 50 characters!")]
         [MinLength(2, ErrorMessage = "Name must be at least 2 characters!")]
         public string Name { get; set; }
 
+
+        //[DisplayFormat(DataFormatString = "{dd.MM.yyyy}")]
         [DisplayName("Birth")]
-        [BirthDateValidation(ErrorMessage = "Date cannot be greater than now and lower than 50 years ago!")]
+        [BirthDateValidation(ErrorMessage = "The date cannot be further than now or more than 50 years.")]
         public DateTime BirthDate { get; set; }
 
         [DisplayName("Image")]
         public string? PicturePath { get; set; }
+
         [DisplayName("Sound")]
         public string? SoundPath { get; set; }
-        public Animal(int ıd, AnimalType type, string name, DateTime birthDate, string? picturePath, string? soundPath)
+
+        public Animal(int id, AnimalType type, string name, DateTime birthDate, string? picturePath, string? soundPath)
         {
-            Id = ıd;
+            Id = id;
             Type = type;
             Name = name;
             BirthDate = birthDate;
