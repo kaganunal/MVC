@@ -23,11 +23,25 @@ namespace MVCCategoriesandProductsSQL.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Product product)
+        public async Task<IActionResult> Create(Product product, IFormFile? file)
         {
 
             //if (ModelState.IsValid)
             //{
+            if (file != null && file.Length > 0)
+            {
+                var fileName = Path.GetFileName(file.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\", fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+                product.PicturePath = "/images/" + fileName;
+            }
+            else
+            {
+                product.PicturePath = "/images/default_product.png";
+            }
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
             return RedirectToAction("Index");
@@ -51,11 +65,26 @@ namespace MVCCategoriesandProductsSQL.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Update(Product product)
+        public async Task<IActionResult> Update(Product product, IFormFile? file)
         {
 
             //if (ModelState.IsValid)
             //{
+            if (file != null && file.Length > 0)
+            {
+                var fileName = Path.GetFileName(file.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\", fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+                product.PicturePath = "/images/" + fileName;
+            }
+            else
+            {
+                var existingPhoto = await _context.Products.AsNoTracking().FirstOrDefaultAsync(a => a.Id == product.Id);
+                product.PicturePath = existingPhoto.PicturePath;
+            }
             _context.Products.Update(product);
             await _context.SaveChangesAsync();
             return RedirectToAction("Index");

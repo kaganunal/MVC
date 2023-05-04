@@ -17,6 +17,8 @@ namespace MVCCategoriesandProductsSQL.Controllers
         public async Task<IActionResult> Index()
         {
             var categories = await _context.Categories.Include(c => c.Products).ToListAsync();
+
+
             return View(categories);
         }
 

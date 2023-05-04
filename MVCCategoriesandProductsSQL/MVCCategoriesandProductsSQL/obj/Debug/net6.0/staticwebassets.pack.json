@@ -917,6 +917,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\MVCCategoriesandProductsSQL\\MVCCategoriesandProductsSQL\\wwwroot\\images\\Ekran görüntüsü 2023-03-17 163527.png",
+      "PackagePath": "staticwebassets\\images\\Ekran görüntüsü 2023-03-17 163527.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\MVCCategoriesandProductsSQL\\MVCCategoriesandProductsSQL\\wwwroot\\images\\default_product.png",
+      "PackagePath": "staticwebassets\\images\\default_product.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\MVCCategoriesandProductsSQL\\MVCCategoriesandProductsSQL\\wwwroot\\images\\hpPc.png",
+      "PackagePath": "staticwebassets\\images\\hpPc.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\MVCCategoriesandProductsSQL\\MVCCategoriesandProductsSQL\\wwwroot\\images\\iphone.jpg",
+      "PackagePath": "staticwebassets\\images\\iphone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\MVCCategoriesandProductsSQL\\MVCCategoriesandProductsSQL\\wwwroot\\images\\macbook.jpg",
+      "PackagePath": "staticwebassets\\images\\macbook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\MVCCategoriesandProductsSQL\\MVCCategoriesandProductsSQL\\wwwroot\\images\\samsung tv.jpg",
+      "PackagePath": "staticwebassets\\images\\samsung tv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\MVCCategoriesandProductsSQL\\MVCCategoriesandProductsSQL\\wwwroot\\images\\vestel tv.jpg",
+      "PackagePath": "staticwebassets\\images\\vestel tv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\MVCCategoriesandProductsSQL\\MVCCategoriesandProductsSQL\\wwwroot\\images\\xiaomi.jpg",
+      "PackagePath": "staticwebassets\\images\\xiaomi.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\Bilge Adam\\GitHub\\MVC\\MVCCategoriesandProductsSQL\\MVCCategoriesandProductsSQL\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

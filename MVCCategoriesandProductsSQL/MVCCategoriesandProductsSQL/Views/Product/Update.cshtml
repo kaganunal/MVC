@@ -10,8 +10,8 @@
 <h4>Product</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Update">
+    <div class="col-md-4" >
+        <form asp-action="Update" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="form-group">
@@ -25,10 +25,6 @@
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
-@*                <input class="form-check-input" type="checkbox" asp-for="IsInStock" />
-                <label class="form-check-label">
-                    Is In Stock
-                </label>*@
                 <label asp-for=IsInStock class="form-check-label">
                     <input asp-for="IsInStock" type="checkbox" /> Is In Stock
                 </label>
@@ -37,6 +33,11 @@
                 <label asp-for="CategoryId" class="control-label"></label>
                 <input asp-for="CategoryId" class="form-control" />
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PicturePath" class="control-label"></label>
+                <input asp-for="PicturePath" type="file" class="form-control" name="file" />
+                <span asp-validation-for="PicturePath" asp-for="PicturePath" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

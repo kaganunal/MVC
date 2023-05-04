@@ -12,6 +12,7 @@ namespace MVCCategoriesandProductsSQL.Models
         public decimal Price { get; set; }
         [Required]
         public bool IsInStock { get; set; }
+        public string? PicturePath { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 

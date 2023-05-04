@@ -11,8 +11,8 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger "></div>
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
@@ -24,14 +24,19 @@
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="IsInStock" /> @Html.DisplayNameFor(model => model.IsInStock)
+                <label asp-for=IsInStock class="form-check-label">
+                    <input asp-for="IsInStock" type="checkbox" /> Is In Stock
                 </label>
             </div>
             <div class="form-group">
                 <label asp-for="CategoryId" class="control-label"></label>
                 <input asp-for="CategoryId" class="form-control" />
                 <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group text-center" style="background-color:slateblue ">
+                <label asp-for="PicturePath" style="color:black; font-size:large" class="control-label p-2 mt-2 "></label>
+                <input asp-for="PicturePath" type="file" class="form-control " style="background-color:dimgrey; border: 2px solid black" name="file" />
+                <span asp-validation-for="PicturePath" asp-for="PicturePath" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
