@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DTO-API-VIEW.props" />
+</Project>

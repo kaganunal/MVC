@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Authentication-Identity-Area-Roles.props" />
+</Project>
