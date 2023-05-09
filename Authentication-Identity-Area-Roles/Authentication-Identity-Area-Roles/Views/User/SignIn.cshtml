@@ -4,39 +4,37 @@
     ViewData["Title"] = "SignIn";
 }
 
-<section id="main" class="container">
+<section id="main" class="container" style="background-image:">
     <section class="box special">
         <header class="major">
             <h1>SignIn</h1>
 
-            <h4>SignInAppUser</h4>
-            <hr />
-            <div class="row">
-                <div class="col-md-4">
+            
+            <div class="col justify-content-center d-flex">
+                <div class="col-md-4 ">
                     <form asp-action="SignIn">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                        <div class="form-group">
+                        <div class="form-group m-3">
                             <label asp-for="Username" class="control-label"></label>
                             <input asp-for="Username" class="form-control" />
                             <span asp-validation-for="Username" class="text-danger"></span>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group m-3">
                             <label asp-for="Password" class="control-label"></label>
                             <input asp-for="Password" class="form-control" />
                             <span asp-validation-for="Password" class="text-danger"></span>
                         </div>
-                        <div class="form-group">
-                            <input type="submit" value="Create" class="btn btn-primary" />
+                        <div class="form-group m-3">
+                            <input type="submit" value="Sign In!" class="btn btn-primary" />
                         </div>
                     </form>
                 </div>
             </div>
 
             <div>
-                <a asp-action="Index">Back to List</a>
+                <a asp-action="Index" class="btn btn-dark">Back to List</a>
             </div>
         </header>
-        <span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
     </section>
 </section>
 
