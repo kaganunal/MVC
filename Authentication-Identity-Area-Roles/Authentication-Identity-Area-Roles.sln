@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication-Identity-Area-Roles", "Authentication-Identity-Area-Roles\Authentication-Identity-Area-Roles.csproj", "{358D9E89-6242-49C9-A92D-BC5E7424FE09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication-Identity-Area-Roles", "Authentication-Identity-Area-Roles\Authentication-Identity-Area-Roles.csproj", "{358D9E89-6242-49C9-A92D-BC5E7424FE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaganUnal.Management.Service", "KaganUnal.Management.Service\KaganUnal.Management.Service.csproj", "{9D958783-98EB-4289-B591-BAF5E0DF926E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{358D9E89-6242-49C9-A92D-BC5E7424FE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{358D9E89-6242-49C9-A92D-BC5E7424FE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{358D9E89-6242-49C9-A92D-BC5E7424FE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D958783-98EB-4289-B591-BAF5E0DF926E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D958783-98EB-4289-B591-BAF5E0DF926E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D958783-98EB-4289-B591-BAF5E0DF926E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D958783-98EB-4289-B591-BAF5E0DF926E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

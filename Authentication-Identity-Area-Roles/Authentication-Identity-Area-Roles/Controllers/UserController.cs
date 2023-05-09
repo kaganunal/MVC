@@ -1,7 +1,14 @@
 ﻿using Authentication_Identity_Area_Roles.Models;
+using Authentication_Identity_Area_Roles.Models.Authentication.SignIn;
 using Authentication_Identity_Area_Roles.Models.Authentication.SignUp;
+using KaganUnal.Management.Service.Models;
+using KaganUnal.Management.Service.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace Authentication_Identity_Area_Roles.Controllers
 {
@@ -9,11 +16,15 @@ namespace Authentication_Identity_Area_Roles.Controllers
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-        public UserController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
+        private readonly IConfiguration _configuration;
+        private readonly IEmailService _emailService;
+        public UserController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration, IEmailService emailService)
         {
             //Dependency Injection (Bağımlılık enjeksiyonu)
             _userManager = userManager;
             _roleManager = roleManager;
+            _configuration = configuration;
+            _emailService = emailService;
         }
         public IActionResult Index()
         {
@@ -74,6 +85,74 @@ namespace Authentication_Identity_Area_Roles.Controllers
             }
             return viewResult;
 
+        }
+
+        public IActionResult SignIn()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SignIn([FromForm] SignInAppUser appUser)
+        {
+            IActionResult viewResult;
+
+            var userByName = await _userManager.FindByNameAsync(appUser.Username);
+
+
+            if (userByName != null)
+            {
+                if (await _userManager.CheckPasswordAsync(userByName, appUser.Password))
+                {
+                    var payload = new List<Claim>
+                    {
+                        new Claim ("username", appUser.Username),
+                        new Claim("tokenID",Guid.NewGuid().ToString())
+                    };
+
+                    var jwtToken = GetToken(payload, 4, 15);
+                    var tokenStr = new JwtSecurityTokenHandler().WriteToken(jwtToken);
+
+                    viewResult = Ok(new { token = tokenStr, expires = jwtToken.ValidTo });
+                }
+                else
+                {
+                    viewResult = StatusCode(StatusCodes.Status406NotAcceptable, new AppResponse() { Status = "Kullanıcı Girişi Hatası", Message = "Sistemde böyle bir kullanıcı bulunmamaktadır!" });
+                }
+            }
+            else
+            {
+                viewResult = StatusCode(StatusCodes.Status406NotAcceptable, new AppResponse() { Status = "Parola Hatası", Message = "Girilen parola hatalıdır!" });
+            }
+
+            return viewResult;
+        }
+
+        private JwtSecurityToken GetToken(List<Claim> payload, int hours, int minutes)
+        {
+            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("JWT")["Secret"]));
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["JWT:ValidIssuer"],
+                audience: _configuration["JWT:ValidAudience"],
+                claims: payload,
+                //notBefore: DateTime.UtcNow.AddMinutes(5),//5 dk sonra token aktif olacaktır!
+                //Belirlenen süre sonunda token geçersiz olacaktır!
+                expires: DateTime.UtcNow.AddHours(hours).AddMinutes(minutes),
+                signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
+
+                );
+
+            return token;
+        }
+
+        public IActionResult SendMail()
+        {
+            var emailMessage = new MailMessage(new Dictionary<string, string>() { { "Fatih Kaan Açıkgöz 1", "fatihkaanacikgoz@gmail.com" }, { "Fatih Kaan Açıkgöz 2", "fatihimin3406@gmail.com" } }, "İlk mail denemesi başlığı", "<h1>Mantığının anlaşılması gereken hadiseler</h1><ol><li>OOP Mantığı</li><li>SOLID prensipleri</li></ol><p>Yazan: <b>Fatih Kaan Açıkgöz</b></p>");
+
+            _emailService.SendEmail(emailMessage);
+
+            return StatusCode(StatusCodes.Status200OK, new AppResponse() { Status = "Başarılı", Message = "Email başarıyla gönderildi!" });
         }
     }
 }

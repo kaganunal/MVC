@@ -1,4 +1,6 @@
 using Authentication_Identity_Area_Roles.Context;
+using KaganUnal.Management.Service.Configurations;
+using KaganUnal.Management.Service.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -21,10 +23,11 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(opt =>
     opt.Password.RequireLowercase = false;
     opt.Password.RequireUppercase = false;
     opt.Password.RequireNonAlphanumeric = false;
-});
+}).AddEntityFrameworkStores<NorthwindContext>().AddDefaultTokenProviders();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<NorthwindContext>().AddDefaultTokenProviders();
 
+//Sisteme giriþ yapma kurallarý.
 //Authentication iþleminin JWTBearer ile gerçekleþeceðini belirtiyoruz!
 builder.Services.AddAuthentication(
 opt =>
@@ -34,6 +37,9 @@ opt =>
     opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 }
 );
+builder.Services.AddSingleton(builder.Configuration.GetSection("EmailConfig").Get<EmailConfig>());
+
+builder.Services.AddScoped<IEmailService, EMailService>();
 
 var app = builder.Build();
 
@@ -54,6 +60,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=User}/{action=Index}/{id?}");
 
 app.Run();

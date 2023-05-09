@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Authentication\SignIn\" />
+    <ProjectReference Include="..\KaganUnal.Management.Service\KaganUnal.Management.Service.csproj" />
   </ItemGroup>
 
 </Project>
