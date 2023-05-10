@@ -25,7 +25,11 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(opt =>
     opt.Password.RequireNonAlphanumeric = false;
 }).AddEntityFrameworkStores<NorthwindContext>().AddDefaultTokenProviders();
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<NorthwindContext>().AddDefaultTokenProviders();
+builder.Services.Configure<IdentityOptions>(opt =>
+{
+    opt.SignIn.RequireConfirmedEmail = true;
+});
+
 
 //Sisteme giriþ yapma kurallarý.
 //Authentication iþleminin JWTBearer ile gerçekleþeceðini belirtiyoruz!

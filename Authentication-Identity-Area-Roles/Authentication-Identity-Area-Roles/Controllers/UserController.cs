@@ -70,6 +70,13 @@ namespace Authentication_Identity_Area_Roles.Controllers
                     if (eklemeSonucu.Succeeded)
                     {
                         await _userManager.AddToRoleAsync(eklenecekKullanici, role);
+
+                        var token = await _userManager.GenerateEmailConfirmationTokenAsync(eklenecekKullanici);
+                        var emailDogrulamaLinki = Url.Action(nameof(++++++, ConfirmEmail), "User", new { token, email = eklenecekKullanici.Email }, Request.Scheme);
+                        var emailDogrulamaMesaji = new MailMessage(new Dictionary<string, string>() { { eklenecekKullanici.UserName!, eklenecekKullanici.Email! } }, "Email Doğrulama Linki", $"<b>Uygulamamıza giriş yapabilmeniz için doğrulama linki:<b/> <a href=\"{emailDogrulamaLinki}\"><button>Onayla</button></a>)");
+
+                        _emailService.SendEmail(emailDogrulamaMesaji);
+
                         viewResult = RedirectToAction("Index");
                     }
                     else
@@ -154,5 +161,7 @@ namespace Authentication_Identity_Area_Roles.Controllers
 
             return StatusCode(StatusCodes.Status200OK, new AppResponse() { Status = "Başarılı", Message = "Email başarıyla gönderildi!" });
         }
+
+        //public async Task<>
     }
 }
