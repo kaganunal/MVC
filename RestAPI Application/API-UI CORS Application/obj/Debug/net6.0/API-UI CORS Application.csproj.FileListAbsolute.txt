@@ -1,0 +1,33 @@
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\API-UI CORS Application.exe
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\API-UI CORS Application.deps.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\API-UI CORS Application.runtimeconfig.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\API-UI CORS Application.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\API-UI CORS Application.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\FakeData.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.AssemblyInfo.cs
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\staticwebassets\msbuild.API-UI CORS Application.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\staticwebassets\msbuild.build.API-UI CORS Application.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API-UI CORS Application.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API-UI CORS Application.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\scopedcss\bundle\API-UI CORS Application.styles.css
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.csproj.CopyComplete
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\refint\API-UI CORS Application.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\API-UI CORS Application.genruntimeconfig.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\API-UI CORS Application\obj\Debug\net6.0\ref\API-UI CORS Application.dll

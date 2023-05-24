@@ -1,0 +1,33 @@
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.AssemblyInfo.cs
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\bin\Debug\net6.0\RestAPI Application.staticwebassets.runtime.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\bin\Debug\net6.0\RestAPI Application.exe
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\bin\Debug\net6.0\RestAPI Application.deps.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\bin\Debug\net6.0\RestAPI Application.runtimeconfig.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\bin\Debug\net6.0\RestAPI Application.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\bin\Debug\net6.0\RestAPI Application.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\staticwebassets\msbuild.RestAPI Application.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\staticwebassets\msbuild.build.RestAPI Application.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.RestAPI Application.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.RestAPI Application.props
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\scopedcss\bundle\RestAPI Application.styles.css
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\scopedcss\projectbundle\RestAPI Application.bundle.scp.css
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.csproj.CopyComplete
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\refint\RestAPI Application.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\RestAPI Application.genruntimeconfig.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\MVC\RestAPI Application\RestAPI Application\obj\Debug\net6.0\ref\RestAPI Application.dll
