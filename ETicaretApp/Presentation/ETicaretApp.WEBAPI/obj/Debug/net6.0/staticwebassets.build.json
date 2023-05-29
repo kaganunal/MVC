@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2xK2dmpysbJmBWDRNzu1IuYjDsrvwQFmGE2Rb+8UKtQ=",
+  "Source": "ETicaretApp.WEBAPI",
+  "BasePath": "_content/ETicaretApp.WEBAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

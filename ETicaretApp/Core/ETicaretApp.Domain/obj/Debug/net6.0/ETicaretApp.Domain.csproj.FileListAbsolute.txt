@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\bin\Debug\net6.0\ETicaretApp.Domain.deps.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\bin\Debug\net6.0\ETicaretApp.Domain.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\bin\Debug\net6.0\ETicaretApp.Domain.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\obj\Debug\net6.0\ETicaretApp.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\obj\Debug\net6.0\ETicaretApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\obj\Debug\net6.0\ETicaretApp.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\obj\Debug\net6.0\ETicaretApp.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\obj\Debug\net6.0\ETicaretApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\obj\Debug\net6.0\ETicaretApp.Domain.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\obj\Debug\net6.0\refint\ETicaretApp.Domain.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\obj\Debug\net6.0\ETicaretApp.Domain.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Domain\obj\Debug\net6.0\ref\ETicaretApp.Domain.dll

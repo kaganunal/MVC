@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\bin\Debug\net6.0\ETicaretApp.Application.deps.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\bin\Debug\net6.0\ETicaretApp.Application.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\bin\Debug\net6.0\ETicaretApp.Application.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\bin\Debug\net6.0\ETicaretApp.Domain.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\bin\Debug\net6.0\ETicaretApp.Domain.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\obj\Debug\net6.0\ETicaretApp.Application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\obj\Debug\net6.0\ETicaretApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\obj\Debug\net6.0\ETicaretApp.Application.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\obj\Debug\net6.0\ETicaretApp.Application.AssemblyInfo.cs
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\obj\Debug\net6.0\ETicaretApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\obj\Debug\net6.0\ETicaretApp.Application.csproj.CopyComplete
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\obj\Debug\net6.0\ETicaretApp.Application.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\obj\Debug\net6.0\refint\ETicaretApp.Application.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\obj\Debug\net6.0\ETicaretApp.Application.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Core\ETicaretApp.Application\obj\Debug\net6.0\ref\ETicaretApp.Application.dll

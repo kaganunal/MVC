@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\bin\Debug\net6.0\ETicaretApp.Infrastructure.deps.json
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\bin\Debug\net6.0\ETicaretApp.Infrastructure.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\bin\Debug\net6.0\ETicaretApp.Infrastructure.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\bin\Debug\net6.0\ETicaretApp.Application.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\bin\Debug\net6.0\ETicaretApp.Domain.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\bin\Debug\net6.0\ETicaretApp.Application.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\bin\Debug\net6.0\ETicaretApp.Domain.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\obj\Debug\net6.0\ETicaretApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\obj\Debug\net6.0\ETicaretApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\obj\Debug\net6.0\ETicaretApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\obj\Debug\net6.0\ETicaretApp.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\obj\Debug\net6.0\ETicaretApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\obj\Debug\net6.0\ETicaretApp.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\obj\Debug\net6.0\ETicaretApp.Infrastructure.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\obj\Debug\net6.0\refint\ETicaretApp.Infrastructure.dll
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\obj\Debug\net6.0\ETicaretApp.Infrastructure.pdb
+C:\Users\User\Desktop\Bilge Adam\GitHub\NET6COREMVC\ONIONARCHITECTURE\ETicaretApp\Infrastructure\ETicaretApp.Infrastructure\obj\Debug\net6.0\ref\ETicaretApp.Infrastructure.dll
